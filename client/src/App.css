@@ -1,0 +1,128 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+    * { box-sizing: border-box; }
+    body { font-family: 'Manrope', sans-serif; margin: 0; background: #060f1e; }
+    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; } to { opacity: 1; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50%       { transform: translateY(-12px); }
+    }
+    @keyframes pulse-ring {
+      0%   { transform: scale(1); opacity: 0.6; }
+      100% { transform: scale(1.8); opacity: 0; }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position: 200% center; }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes rotateSlow {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    .anim-fade-up   { animation: fadeUp 0.8s ease forwards; }
+    .anim-fade-up-1 { animation: fadeUp 0.8s 0.1s ease both; }
+    .anim-fade-up-2 { animation: fadeUp 0.8s 0.25s ease both; }
+    .anim-fade-up-3 { animation: fadeUp 0.8s 0.4s ease both; }
+    .anim-fade-up-4 { animation: fadeUp 0.8s 0.55s ease both; }
+    .anim-fade-up-5 { animation: fadeUp 0.8s 0.7s ease both; }
+    .float-anim     { animation: float 4s ease-in-out infinite; }
+    .rotate-slow    { animation: rotateSlow 20s linear infinite; }
+    .slide-down     { animation: slideDown 0.25s ease forwards; }
+
+    .shimmer-text {
+      background: linear-gradient(90deg, #c9a84c 0%, #f0d584 40%, #c9a84c 60%, #e8c97a 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 3s linear infinite;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .gold-border {
+      border: 1px solid rgba(201,168,76,0.3);
+    }
+
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 60px rgba(14,140,132,0.15);
+      border-color: rgba(14,140,132,0.5) !important;
+    }
+
+    .nav-link-line {
+      position: relative;
+    }
+    .nav-link-line::after {
+      content: '';
+      position: absolute; bottom: -2px; left: 0; right: 100%;
+      height: 1px; background: #c9a84c;
+      transition: right 0.3s ease;
+    }
+    .nav-link-line:hover::after { right: 0; }
+
+    .hero-grid {
+      background-image:
+        linear-gradient(rgba(14,140,132,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(14,140,132,0.06) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+
+    .stat-card:hover .stat-number { color: #14b5ab; }
+
+    .pulse-dot::before {
+      content: '';
+      position: absolute;
+      inset: 0; border-radius: 50%;
+      background: #14b5ab;
+      animation: pulse-ring 1.8s ease-out infinite;
+    }
+
+    .btn-primary {
+      position: relative; overflow: hidden;
+      background: linear-gradient(135deg, #0e8c84, #14b5ab);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn-primary::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, #14b5ab, #0e8c84);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(14,140,132,0.4); }
+    .btn-primary:hover::before { opacity: 1; }
+    .btn-primary span { position: relative; z-index: 1; }
+
+    .btn-outline {
+      border: 1px solid rgba(201,168,76,0.5);
+      transition: all 0.3s;
+    }
+    .btn-outline:hover {
+      background: rgba(201,168,76,0.1);
+      border-color: #c9a84c;
+      color: #c9a84c;
+    }
+
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #060f1e; }
+    ::-webkit-scrollbar-thumb { background: #0e8c84; border-radius: 3px; }
