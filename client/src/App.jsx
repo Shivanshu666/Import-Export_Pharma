@@ -8,6 +8,8 @@ import Market from './Components/Market';
 import WhyUs from './Components/WhyUs';
 import CtaBanner from './Components/CtaBanner';
 import Footer from './Components/Footer';
+import AboutUs from "./Components/AboutUs";
+import Products from "./Components/Product"
 
 
 
@@ -21,6 +23,8 @@ const App = () => {
       <Services/>
       <Market/>
       <WhyUs/>
+      <AboutUs/>
+      <Products/>
       <CtaBanner/>
      </main>
      <Footer/>

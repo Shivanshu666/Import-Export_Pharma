@@ -16,7 +16,7 @@ const WhyUs = () => {
             Why Choose Us
           </div>
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(28px, 3.5vw, 48px)", fontWeight: 700, color: "#f5f5f0" }}>
-            The <span className="shimmer-text">PharmaGlobe</span> Advantage
+            The <span className="shimmer-text">NIV PHARMA</span> Advantage
           </h2>
         </div>
 

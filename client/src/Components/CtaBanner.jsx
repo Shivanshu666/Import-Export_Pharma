@@ -15,13 +15,13 @@ const CtaBanner = () => {
           Talk to our global trade specialists today. Get a customized quote, regulatory guidance, and market entry strategy — all in one consultation.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <a href="mailto:info@pharmaglobe.com" className="rounded-xl px-8 py-4 no-underline font-bold transition-all duration-200"
+          <a href="mailto:nivpharma@gmail.com" className="rounded-xl px-8 py-4 no-underline font-bold transition-all duration-200"
             style={{ background: "#fff", color: "#0e8c84", fontSize: 15 }}
             onMouseEnter={e => { e.currentTarget.style.transform = "translateY(-2px)"; e.currentTarget.style.boxShadow = "0 12px 30px rgba(0,0,0,0.2)"; }}
             onMouseLeave={e => { e.currentTarget.style.transform = ""; e.currentTarget.style.boxShadow = ""; }}>
             📧 Email Us Now
           </a>
-          <a href="tel:+18007426837" className="rounded-xl px-8 py-4 no-underline font-bold transition-all duration-200"
+          <a href="tel:+919340368921" className="rounded-xl px-8 py-4 no-underline font-bold transition-all duration-200"
             style={{ border: "2px solid rgba(255,255,255,0.4)", color: "#fff", fontSize: 15 }}
             onMouseEnter={e => { e.currentTarget.style.background = "rgba(255,255,255,0.1)"; }}
             onMouseLeave={e => { e.currentTarget.style.background = ""; }}>

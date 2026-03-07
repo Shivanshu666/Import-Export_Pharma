@@ -17,7 +17,7 @@ const Navbar = () => {
   {
     label: "Products",
     href: "#products",
-    sub: ["API & Bulk Drugs", "Finished Dosage Forms", "Nutraceuticals", "Veterinary Products", "Medical Devices"],
+    // sub: ["API & Bulk Drugs", "Finished Dosage Forms", "Nutraceuticals", "Veterinary Products", "Medical Devices"],
   },
   {
     label: "Services",
@@ -35,8 +35,8 @@ const Navbar = () => {
       <div style={{ background: "rgba(14,140,132,0.15)", borderBottom: "1px solid rgba(14,140,132,0.2)" }}
         className="hidden md:flex justify-between items-center px-16 py-2">
         <div className="flex items-center gap-6 text-xs" style={{ color: "#8a9ab5" }}>
-          <span>📧 info@pharmaglobe.com</span>
-          <span>📞 +1 (800) 742-6837</span>
+          <span>📧 nivpharma@gmail.com</span>
+          <span>📞 +91 9340368921</span>
           <span>🕐 Mon–Fri: 08:00 – 18:00 EST</span>
         </div>
         <div className="flex items-center gap-4 text-xs" style={{ color: "#8a9ab5" }}>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </div>
           <div>
             <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 20, fontWeight: 700, color: "#f5f5f0", lineHeight: 1.1, letterSpacing: "0.3px" }}>
-              PharmaGlobe
+              NIV PHARMA
             </div>
             <div style={{ fontSize: 9, fontWeight: 600, color: "#c9a84c", letterSpacing: "2.5px", textTransform: "uppercase" }}>
               International
