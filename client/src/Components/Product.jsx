@@ -31,7 +31,7 @@ const PRODUCTS = [
     // badgeColor: "#c9a84c",
     // pages: "64 Pages",
     format: "PDF • USP / BP / EP Standards",
-    tags: ["WHO-GMP", "USP", "EP Grade", "Bulk"],
+    tags: ["WHO-GMP", "USP", "EP Grade", "Bulk"],     
   },
   {
     name: "Tablets Catalogue",
