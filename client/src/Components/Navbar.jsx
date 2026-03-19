@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import pdfLogo from "../assets/Logo.png";
 import { useEffect } from 'react';
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
         <div className="flex items-center gap-6 text-xs" style={{ color: "#8a9ab5" }}>
           <span>📧 nivpharma@gmail.com</span>
           <span>📞 +91 9340368921</span>
-          <span>🕐 Mon–Fri: 08:00 – 18:00 EST</span>
+          <span>🕐 Mon–Sat: 08:00 – 18:00 EST</span>
         </div>
         <div className="flex items-center gap-4 text-xs" style={{ color: "#8a9ab5" }}>
           <span className="px-2 py-0.5 rounded" style={{ background: "rgba(14,140,132,0.2)", color: "#14b5ab" }}>
@@ -59,10 +60,17 @@ const Navbar = () => {
       >
         {/* Logo */}
         <a href="#home" className="flex items-center gap-3 no-underline">
-          <div className="flex items-center justify-center rounded-xl text-2xl"
-            style={{ width: 46, height: 46, background: "linear-gradient(135deg, #0e8c84, #14b5ab)", boxShadow: "0 0 24px rgba(14,140,132,0.5)" }}>
-            ⚕
-          </div>
+         <div
+  className="flex items-center justify-center rounded-xl text-2xl"
+  style={{
+    width: 46,
+    height: 46,
+    background: "linear-gradient(135deg, #0e8c84, #14b5ab)",
+    boxShadow: "0 0 24px rgba(14,140,132,0.5)",
+  }}
+>
+  <img src={pdfLogo} alt="PDF" className="w-full h-full" />
+</div>
           <div>
             <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 20, fontWeight: 700, color: "#f5f5f0", lineHeight: 1.1, letterSpacing: "0.3px" }}>
               NIV PHARMA

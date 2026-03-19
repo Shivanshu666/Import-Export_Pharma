@@ -4,8 +4,12 @@ import pdf2 from "../assets/pdf/Semisolids-NivPharma.pdf";
 import pdf3 from "../assets/pdf/Tablets-NivPharma.pdf";
 import pdf4 from "../assets/pdf/Capsules-NivPharma.pdf";
 import pdf5 from "../assets/pdf/Injectables-NivPharma.pdf";
-
-
+import pdf6 from "../assets/pdf/Herbal-Product-Nivpharma.pdf";
+import pdf7 from "../assets/pdf/Liquids-Powders-NivPharma.pdf";
+import pdf8 from "../assets/pdf/Ophthalmic-nivpharma.pdf";
+import pdf9 from "../assets/pdf/pharmaceuticals-product_Nivpharma.pdf";
+import pdf10 from "../assets/pdf/Sachets-nivpharma.pdf";
+import pdf11 from "../assets/pdf/Suppositories-Pessaries-NivPharma.pdf";
 
 
 
@@ -66,11 +70,77 @@ const PRODUCTS = [
     format: "PDF • Multi-country Approved",
     tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
   },
+    {
+    name: "Herbal Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf6,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
+  {
+    name: "Liquids-Powder Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf7,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
+   {
+    name: "Opthalmic Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf8,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
+  {
+    name: "Pharmaceuticals Product Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf9,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
+   {
+    name: "Sachets Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf10,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
+    {
+    name: "Suppositories-Pessaries Catalogue",
+    desc: "Essential compliance documentation — GMP certificates, Free Sale Certificates, WHO Prequalification letters, and country-specific regulatory approvals.",
+    pdf: pdf11,
+    icon: "🏛️",
+    badge: "Compliance",
+    badgeColor: "#c9a84c",
+
+    format: "PDF • Multi-country Approved",
+    tags: ["ISO 9001", "WHO-GMP", "CE", "ANVISA"],
+  },
 ];
 
 const STATS = [
   { val: "4",      label: "Catalogues Available", icon: "📂" },
-  { val: "1,200+", label: "Products Listed",       icon: "💊" },
+  { val: "3,200+", label: "Products Listed",       icon: "💊" },
   { val: "40+",    label: "Countries Covered",     icon: "🌍" },
   { val: "Free",   label: "Instant Download",      icon: "⚡" },
 ];

@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
             </div>
             <p style={{ fontSize: 13.5, color: "#8a9ab5", lineHeight: 1.85, maxWidth: 320 }}>
-              A globally trusted pharmaceutical import & export company delivering quality medicines, APIs, and healthcare products to regulated markets worldwide since 2006.
+              A globally trusted pharmaceutical import & export company delivering quality medicines, APIs, and healthcare products to regulated markets worldwide since 2016.
             </p>
           </div>
           {[

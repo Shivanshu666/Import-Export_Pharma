@@ -4,7 +4,7 @@ const Hero = () => {
     const STATS = [
   { value: "40+", label: "Countries Served", icon: "🌍" },
   { value: "1200+", label: "Products Portfolio", icon: "💊" },
-  { value: "18", label: "Years of Excellence", icon: "🏆" },
+  { value: "10", label: "Years of Excellence", icon: "🏆" },
   { value: "ISO", label: "9001:2015 Certified", icon: "✅" },
 ];
   return (
@@ -35,7 +35,7 @@ const Hero = () => {
           <span className="relative inline-block" style={{ width: 8, height: 8 }}>
             <span className="pulse-dot relative inline-block rounded-full" style={{ width: 8, height: 8, background: "#14b5ab" }} />
           </span>
-          WHO-GMP Certified · 40+ Countries · Trusted Since 2006
+          WHO-GMP Certified · 40+ Countries · Trusted Since 2016
         </div>
 
         {/* Headline */}

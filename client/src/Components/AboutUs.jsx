@@ -44,13 +44,13 @@ export default function AboutUs() {
             Our Story
           </div>
           <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: "clamp(36px,5vw,72px)", fontWeight: 900, lineHeight: 1.1, marginBottom: 20 }}>
-            18 Years of Connecting{" "}
+            10 Years of Connecting{" "}
             <span style={{ background: "linear-gradient(90deg,#c9a84c,#f0d584,#c9a84c)", backgroundSize: "200% auto", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
               Global Pharma
             </span>
           </h1>
           <p style={{ fontSize: 17, color: "#8a9ab5", lineHeight: 1.85, maxWidth: 620, margin: "0 auto" }}>
-            From a small trading desk in New York to a worldwide pharmaceutical network spanning 40+ countries — our journey is built on trust, compliance, and an unrelenting commitment to healthcare access.
+            From a small trading desk in India to a worldwide pharmaceutical network spanning 40+ countries — our journey is built on trust, compliance, and an unrelenting commitment to healthcare access.
           </p>
         </div>
       </section>
