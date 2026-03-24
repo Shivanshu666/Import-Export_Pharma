@@ -161,9 +161,22 @@ const Navbar = () => {
             </a>
           ))}
           <div className="mt-6 flex flex-col gap-3">
-            <a href="#contact" className="btn-outline text-center rounded-xl py-3 no-underline" style={{ color: "#c9a84c", fontWeight: 600 }}>
-              Get a Quote
-            </a>
+                  <a
+  href="https://wa.me/919340368921"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 rounded-lg px-5 py-2.5 no-underline cursor-pointer"
+  style={{
+    fontSize: 13,
+    fontWeight: 600,
+    letterSpacing: "0.5px",
+    color: "#25D366",
+    border: "1px solid #25D366"
+  }}
+>
+  <FaWhatsapp size={18} />
+  WhatsApp
+</a>
             <a href="#contact" className="btn-primary text-center rounded-xl py-3 no-underline" style={{ color: "#fff", fontWeight: 600 }}>
               <span>Partner With Us →</span>
             </a>
