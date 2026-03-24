@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import pdfLogo from "../assets/Logo.png";
+import { FaWhatsapp } from "react-icons/fa";
 import { useEffect } from 'react';
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
   {
     label: "Services",
     href: "#services",
-    sub: ["Regulatory Affairs", "Quality Assurance", "Cold Chain Logistics", "Market Entry Consulting"],
+   
   },
   { label: "Markets", href: "#markets" },
   { label: "Certifications", href: "#certifications" },
@@ -117,10 +118,22 @@ const Navbar = () => {
 
         {/* CTA */}
         <div className="hidden lg:flex items-center gap-3">
-          <a href="#contact" className="btn-outline rounded-lg px-5 py-2.5 no-underline cursor-pointer"
-            style={{ fontSize: 12.5, fontWeight: 600, letterSpacing: "0.5px", color: "#c9a84c" }}>
-            Get a Quote
-          </a>
+          <a
+  href="https://wa.me/919340368921"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 rounded-lg px-5 py-2.5 no-underline cursor-pointer"
+  style={{
+    fontSize: 13,
+    fontWeight: 600,
+    letterSpacing: "0.5px",
+    color: "#25D366",
+    border: "1px solid #25D366"
+  }}
+>
+  <FaWhatsapp size={18} />
+  WhatsApp
+</a>
           <a href="#contact" className="btn-primary rounded-lg px-5 py-2.5 no-underline cursor-pointer"
             style={{ fontSize: 12.5, fontWeight: 600, letterSpacing: "0.5px", color: "#fff" }}>
             <span>Partner With Us →</span>
