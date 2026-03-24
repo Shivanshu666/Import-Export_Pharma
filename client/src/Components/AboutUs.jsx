@@ -35,7 +35,7 @@ export default function AboutUs() {
   return (
     <>
     <Helmet>
-<title>About NIV Pharma | Pharmaceutical Regulatory Consulting</title>
+<title>NIV Pharma | Pharmaceutical Regulatory Consulting</title>
 
 <meta
   name="description"
