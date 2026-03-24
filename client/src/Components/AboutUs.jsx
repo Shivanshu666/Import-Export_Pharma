@@ -2,6 +2,7 @@
 //  ABOUT US PAGE — PharmaGlobe International
 // ═══════════════════════════════════════════
 import ceoImage from "../assets/image1.jpeg";
+import { Helmet } from "react-helmet";
 const TIMELINE = [
   { year: "2006", title: "Company Founded", desc: "PharmaGlobe International was established in New York with a vision to bridge global pharmaceutical supply gaps." },
   { year: "2009", title: "First EU Expansion", desc: "Opened European operations in Amsterdam, enabling GMP-compliant trade across 12 EU member states." },
@@ -32,6 +33,20 @@ const VALUES = [
 
 export default function AboutUs() {
   return (
+    <>
+    <Helmet>
+<title>About NIV Pharma | Pharmaceutical Regulatory Consulting</title>
+
+<meta
+  name="description"
+  content="Learn about NIV Pharma, a pharmaceutical consulting company providing CTD dossiers preparation, regulatory documentation and global pharma services from Bhilai, Chhattisgarh, India."
+/>
+
+<meta
+  name="keywords"
+  content="About NIV Pharma, Pharmaceutical Consulting India, CTD Dossiers Preparation, Pharma Regulatory Services, Bhilai Chhattisgarh Pharma"
+/>
+</Helmet>
     <div id="about" style={{ background: "#060f1e", minHeight: "100vh", fontFamily: "'Manrope', sans-serif", color: "#f5f5f0" }}>
 
       {/* ── HERO BANNER ── */}
@@ -102,7 +117,7 @@ export default function AboutUs() {
           letterSpacing: "2px",
           textTransform: "uppercase"
         }}
-      >
+        >
         Message from CEO
       </div>
 
@@ -156,7 +171,7 @@ export default function AboutUs() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {VALUES.map((v, i) => (
               <div key={i} className="rounded-2xl p-6" style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.07)", transition: "border-color 0.3s,transform 0.3s" }}
-                onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(14,140,132,0.4)"; e.currentTarget.style.transform = "translateY(-4px)"; }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = "rgba(14,140,132,0.4)"; e.currentTarget.style.transform = "translateY(-4px)"; }}
                 onMouseLeave={e => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.07)"; e.currentTarget.style.transform = ""; }}>
                 <div className="text-4xl mb-4">{v.icon}</div>
                 <h3 style={{ fontFamily: "'Playfair Display',serif", fontSize: 20, fontWeight: 700, color: "#f5f5f0", marginBottom: 8 }}>{v.title}</h3>
@@ -170,5 +185,6 @@ export default function AboutUs() {
 
 
     </div>
+            </>
   );
 }
