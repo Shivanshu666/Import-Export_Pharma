@@ -185,6 +185,7 @@ const Footer = () => {
       textDecoration: "none",
       transition: "all 0.25s ease",
     }}
+
     onMouseEnter={(e) => {
       e.currentTarget.style.color = "red";
       e.currentTarget.style.textDecoration = "underline";
@@ -193,6 +194,7 @@ const Footer = () => {
       e.currentTarget.style.color = "#c9a84c";
       e.currentTarget.style.textDecoration = "none";
     }}
+    
   >
     Shivanshu
   </a>
