@@ -11,6 +11,11 @@ import pdf9 from "../assets/pdf/pharmaceuticals-product_Nivpharma.pdf";
 import pdf10 from "../assets/pdf/Sachets-nivpharma.pdf";
 import pdf11 from "../assets/pdf/Suppositories-Pessaries-NivPharma.pdf";
 import pdf12 from "../assets/pdf/MonoclonalAntibodyCategory.pdf";
+import pdf13 from "../assets/pdf/ONCOLOGY-PRODUCTS.pdf";
+import pdf14 from "../assets/pdf/SPRAY.pdf";
+import pdf15 from "../assets/pdf/SYRUP.pdf";
+import pdf16 from "../assets/pdf/Cream-Ointment-Gel.pdf";
+
 
 const TEAL   = "#0e8c84";
 const GOLD   = "#c9a84c";
@@ -150,6 +155,50 @@ const PRODUCTS = [
     tags: ["mAb", "Biosimilars", "Oncology", "Biologic GMP"],
     meta: "Biopharmaceutical Grade",
   },
+  {
+  name: "Oncology Medicines Catalogue",
+  desc: "Comprehensive range of oncology formulations including chemotherapy drugs, targeted therapies, and supportive cancer care medicines manufactured under strict pharmaceutical GMP standards for effective cancer treatment.",
+  pdf: pdf13,
+  icon: "🎗️",
+  badge: "Oncology",
+  accent: GOLD,
+  rgb: GOLD_R,
+  tags: ["Cancer Therapy", "Chemotherapy", "Targeted Therapy", "Oncology GMP"],
+  meta: "Oncology Grade",
+},
+{
+  name: "Pharmaceutical Spray Catalogue",
+  desc: "Advanced pharmaceutical spray formulations including nasal sprays, topical sprays, and therapeutic aerosol preparations developed under strict pharmaceutical GMP standards for respiratory, dermatological, and pain management applications.",
+  pdf: pdf14,
+  icon: "💨",
+  badge: "Sprays",
+  accent: GOLD,
+  rgb: GOLD_R,
+  tags: ["Nasal Spray", "Topical Spray", "Aerosol", "Respiratory Care"],
+  meta: "Pharma Grade",
+},
+{
+  name: "Pharmaceutical Syrup Catalogue",
+  desc: "Wide range of pharmaceutical syrup and oral liquid formulations including pediatric syrups, cough syrups, and therapeutic liquid medicines manufactured under strict pharmaceutical GMP standards for safe and effective treatment.",
+  pdf: pdf15,
+  icon: "🥄",
+  badge: "Syrups",
+  accent: GOLD,
+  rgb: GOLD_R,
+  tags: ["Oral Liquid", "Cough Syrup", "Pediatric Syrup", "Therapeutic Liquids"],
+  meta: "Pharma Grade",
+},
+{
+  name: "Cream, Ointment & Gel Catalogue",
+  desc: "Comprehensive range of dermatological formulations including creams, ointments, and therapeutic gels developed under strict pharmaceutical GMP standards for skin care, infection control, inflammation relief, and wound management.",
+  pdf: pdf16,
+  icon: "🧴",
+  badge: "Topicals",
+  accent: GOLD,
+  rgb: GOLD_R,
+  tags: ["Dermatology", "Cream", "Ointment", "Therapeutic Gel"],
+  meta: "Dermatology Grade",
+},
 ];
 
 const STATS = [
