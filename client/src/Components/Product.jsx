@@ -15,6 +15,7 @@ import pdf13 from "../assets/pdf/ONCOLOGY-PRODUCTS.pdf";
 import pdf14 from "../assets/pdf/SPRAY.pdf";
 import pdf15 from "../assets/pdf/SYRUP.pdf";
 import pdf16 from "../assets/pdf/Cream-Ointment-Gel.pdf";
+import pdf17 from "../assets/pdf/APPROVED-MA-UK-EU-CANADA.pdf";
 
 
 const TEAL   = "#0e8c84";
@@ -46,7 +47,7 @@ const PRODUCTS = [
     meta: "USP / BP / EP Standards",
   },
   {
-    name: "Tablets Catalogue",
+    name: "Solid Catalogue",
     desc: "Extensive range of oral solid dosage tablets — immediate release, modified release, and enteric coated — across multiple therapeutic categories.",
     pdf: pdf3,
     icon: "💊",
@@ -199,6 +200,18 @@ const PRODUCTS = [
   tags: ["Dermatology", "Cream", "Ointment", "Therapeutic Gel"],
   meta: "Dermatology Grade",
 },
+{
+  name: "Regulatory Approved Markets",
+  desc: "Our pharmaceutical products are approved and distributed in highly regulated international markets including the United Kingdom, European Union, and Canada, ensuring strict compliance with global regulatory and quality standards.",
+  pdf: pdf17,
+  icon: "🌍",
+  badge: "Approved Markets",
+  accent: GOLD,
+  rgb: GOLD_R,
+  tags: ["UK Approved", "EU Approved", "Canada Approved", "Regulatory Compliance"],
+  meta: "MA Approved – UK · EU · Canada",
+},
+
 ];
 
 const STATS = [
