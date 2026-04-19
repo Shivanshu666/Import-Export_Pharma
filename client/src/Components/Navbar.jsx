@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import pdfLogo from "../assets/Logo.svg";
+import pdfLogo from "../assets/Logo.png";
 import { FaWhatsapp } from "react-icons/fa";
 import { useEffect } from 'react';
 const Navbar = () => {
